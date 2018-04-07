@@ -1,0 +1,30 @@
+
+.top_nav {
+  height: 10vh;
+  width: 100%;
+  text-align: right;
+}
+
+.top_nav a:link{
+  color: #6a707a;
+  text-decoration: none;
+}
+
+.top_nav a:hover{
+  color: #000000;
+  text-decoration: underline;
+}
+
+.top_nav a:visited{
+  color: #6a707a;
+  text-decoration: none;
+}
+
+.main {
+  width:100%;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
