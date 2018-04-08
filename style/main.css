@@ -24,7 +24,12 @@
   width:100%;
 }
 
-img.center {
-    display: block;
-    margin: 0 auto;
+input {
+  width:500px;
+  height:50px;
+}
+
+input placeholder {
+  font-size: 40px;
+  color: #6a707a;
 }
