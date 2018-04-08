@@ -26,10 +26,49 @@
 
 input {
   width:500px;
-  height:50px;
+  height:48px;
+  border: 1px solid #F2F2F2;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  font: 16px Arial, sans-serif;
 }
 
-input placeholder {
-  font-size: 40px;
-  color: #6a707a;
+input::placeholder {
+  color: #9ea6b2;
+}
+
+input[type=submit] {
+    width:180px;
+    height: 30px;
+}
+
+.buttons {
+  width: 500px;
+  margin:auto;
+}
+
+#btn-left {
+    margin-left: 55px;
+}
+
+.float-left {
+    float: left;
+}
+.search-btn {
+    color: #676767;
+    background-color: #F5F5F5;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    margin: 10px;
+}
+
+#btn-right {
+    margin-right: 55px;
+}
+.float-right {
+    float: right;
+}
+.search-btn {
+    color: #676767;
+    background-color: #F5F5F5;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    margin: 10px;
 }
